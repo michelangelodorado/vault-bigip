@@ -1,7 +1,7 @@
 # vault-bigip
 
 # How to deploy this lab
-- Perform ```git clone https://github.com/michelangelodorado/vault-bigip.git ```
+- ```git clone https://github.com/michelangelodorado/vault-bigip.git ```
 - ```cd vault-bigip```
 - ```terraform init```
 - ```terraform plan && terraform apply -auto-approve```
