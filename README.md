@@ -4,10 +4,10 @@
 - Perform ```git clone https://github.com/michelangelodorado/vault-bigip.git ```
 - ```cd vault-bigip```
 - ```terraform init```
-- This will deploy F5 BIG-IP intance & install Vault on ubuntu on AWS
-- deploy ```terraform plan && terraform apply -auto-approve```
-- SSH into the ubuntu server and cd/tmp
-- Configure vault and use vaul agent
+- ```terraform plan && terraform apply -auto-approve```
+- ```ssh -i terraform-<xxx>.pem ubuntu@<public-ip>```
+- ```cd /tmp```
+- Configure vault and use vault agent:
 ```
 export VAULT_ADDR=http://127.0.0.1:8200
 export VAULT_TOKEN=root
