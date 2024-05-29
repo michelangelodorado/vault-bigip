@@ -1,13 +1,16 @@
 # vault-bigip
 
 # How to deploy this lab
+On your local machine:
 - ```git clone https://github.com/michelangelodorado/vault-bigip.git ```
 - ```cd vault-bigip```
 - ```terraform init```
 - ```terraform plan && terraform apply -auto-approve```
 - ```ssh -i terraform-<xxx>.pem ubuntu@<public-ip>```
+
+Inside Vault Server (Ubuntu):
 - ```cd /tmp```
-- Configure vault and use vault agent:
+- Configure vault and vault agent:
 ```
 export VAULT_ADDR=http://127.0.0.1:8200
 export VAULT_TOKEN=root
