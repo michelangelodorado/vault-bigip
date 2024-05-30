@@ -41,3 +41,8 @@ resource "aws_iam_role" "vault" {
 EOF
 
 }
+
+resource "aws_iam_instance_profile" "vault" {
+  name = "${var.prefix}-vault_sd"
+  role = aws_iam_role.vault.name
+}
