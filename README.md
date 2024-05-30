@@ -1,5 +1,8 @@
 # vault-bigip
 
+![image](https://github.com/michelangelodorado/vault-bigip/assets/102953584/5747af73-b093-4bdd-9769-d2ea8a9d24e2)
+
+
 # How to deploy this lab
 On your local machine:
 - ```git clone https://github.com/michelangelodorado/vault-bigip.git ```
