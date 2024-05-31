@@ -36,4 +36,4 @@ vault agent -config=agent-config.hcl -log-level=debug
 
 Backup:
 - vault secrets enable -path=pki_int pki
-- vault write pki_int/roles/web-certs allowed_domains=demof5.com ttl=160s max_ttl=30m allow_subdomains=true 
+- vault write pki_int/roles/web-certs allowed_domains=demo.com ttl=160s max_ttl=30m allow_subdomains=true 
