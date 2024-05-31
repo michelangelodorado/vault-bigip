@@ -1,4 +1,4 @@
 variable "prefix" {
   description = "prefix for resources created"
-  default     = "demo-vault-bigip"
+  default     = "demo-f5-hashicorp"
 }
