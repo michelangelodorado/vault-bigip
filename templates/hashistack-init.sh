@@ -75,7 +75,7 @@ vault write pki/roles/web-certs allowed_domains=demo.com ttl=60s max_ttl=30m all
 sudo mv id_rsa ~/.ssh
 sudo chown 600 ~/.ssh/id_rsa
 
-wget https://github.com/F5Networks/f5-appsvcs-extension/releases/download/v3.17.1/f5-appsvcs-3.17.1-1.noarch.rpm
+wget https://github.com/F5Networks/f5-appsvcs-extension/releases/download/v3.50.2/f5-appsvcs-3.50.2-3.noarch.rpm
 sudo chmod +x install-rpm.sh
 
 COMMANDS="modify auth user admin { password random_string.password.result };
