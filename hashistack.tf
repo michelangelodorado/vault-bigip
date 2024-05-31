@@ -91,8 +91,8 @@ resource "aws_instance" "vault" {
     }
   }
    provisioner "file" {
-    source      = "as3/f5-appsvcs-3.21.0-4.noarch.rpm"
-    destination = "/tmp/f5-appsvcs-3.21.0-4.noarch.rpm"
+    source      = "as3/f5-appsvcs-3.50.2-3.noarch.rpm"
+    destination = "/tmp/f5-appsvcs-3.50.2-3.noarch.rpm"
     connection {
       type        = "ssh"
       user        = "ubuntu"
