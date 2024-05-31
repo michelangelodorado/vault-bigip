@@ -2,10 +2,14 @@
 
 ![image](https://github.com/michelangelodorado/vault-bigip/assets/102953584/5747af73-b093-4bdd-9769-d2ea8a9d24e2)
 
+# Environment Version
+- BIG-IP TMOS 17.1.1.3
+- AS3 3.50.2
+- Vault 1.5
 
 # How to deploy this lab
 On your local machine:
-- ```git clone https://github.com/michelangelodorado/vault-bigip.git ```
+- ```git clone https://github.com/michelangelodorado/vault-bigip17.git ```
 - ```cd vault-bigip```
 - ```terraform init```
 - ```terraform plan && terraform apply -auto-approve```
