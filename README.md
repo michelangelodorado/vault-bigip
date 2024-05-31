@@ -1,5 +1,5 @@
 # vault-bigip
-This repo is an updated version of f5devcentral/f5-certificate-rotate by Sanjay Shitole
+This repo is an updated version of `f5devcentral/f5-certificate-rotate` by Sanjay Shitole
 
 ![image](https://github.com/michelangelodorado/vault-bigip/assets/102953584/5747af73-b093-4bdd-9769-d2ea8a9d24e2)
 
